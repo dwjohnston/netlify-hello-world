@@ -1,11 +1,11 @@
 name: Wait for netlify deploy
-on: deployment_status
-
+on: 
+  check_suite:
+    conclusion: success
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    if: github.event.deployment_status.state == 'success'
     steps:
       - name: Hello World
         run: echo hello world! $TARGET_URL
