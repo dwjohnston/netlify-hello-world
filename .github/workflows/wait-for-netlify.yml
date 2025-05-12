@@ -31,5 +31,5 @@ jobs:
         run: npm i
 
       - name: Run Cypress
-        run: .github/workflows/scripts/run-cypress.sh
+        run: .github/workflows/scripts/run-tests.sh
 
