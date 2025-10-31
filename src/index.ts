@@ -1,5 +1,6 @@
+import { foo } from "sample-git-package";
 
 
 document.getElementById("my-button")?.addEventListener("click", () => {
-    alert(("Hello, World!"));
+    alert(foo("Hello, World!"));
 });
