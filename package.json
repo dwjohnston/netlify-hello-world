@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sample-git-package": "git+https://github.com/dwjohnston/sample-git-package.git#36d7c2cf43c30c16f1bb010d5ca6d4ec7b760f54"
+    "sample-git-package": "git+https://github.com/dwjohnston/sample-git-package.git#fe3685f616cf3dab0c2b23f739e89fc15c35f9b4"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
